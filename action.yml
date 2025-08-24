@@ -23,7 +23,7 @@ runs:
     - name: Download Luau
       run: |
         case ${{ runner.os }} in
-          Linux) pattern="*linux.zip" ;;
+          Linux) pattern="*ubuntu.zip" ;;
           macOS) pattern="*macos.zip" ;;
           Windows) pattern="*windows.zip" ;;
         esac
