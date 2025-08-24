@@ -16,7 +16,7 @@ runs:
   steps:
     - name: Change directory
       run: |
-        mkdir "$HOME/.luau/bin" --parents
+        mkdir -p "$HOME/.luau/bin"
         cd "$HOME/.luau/bin"
       shell: bash
 
