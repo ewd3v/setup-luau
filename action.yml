@@ -1,4 +1,4 @@
-name: setup-luau
+name: Setup Luau
 description: GitHub action to install Luau; a scripting language derived from Lua.
 author: ewd3v
 
